@@ -2,10 +2,8 @@ using System.Xml.Schema;
 
 namespace Solutions.Solutions._04;
 
-public class P04A : ISolution
+public class P04B : ISolution
 {
-    private const string Xmas = "XMAS";
-
     record Coordinate
     {
         public Coordinate(int row, int column)
@@ -73,7 +71,7 @@ public class P04A : ISolution
 
         Dictionary<Coordinate, Node> nodes = [];
         List<Coordinate> starts = [];
-        var startingLetter = Xmas[0];
+        const char startingLetter = 'A';
         
         for (var r = 0; r < chars.Length; r++)
         for (var c = 0; c < chars[0].Length; c++)
@@ -88,28 +86,21 @@ public class P04A : ISolution
             
             if (letter == startingLetter) starts.Add(coord);
         }
-
-
-        var count = 0;
         
-        foreach (var start in starts)
+        var count = 0;
+        char?[] xMaS = ['M', 'S'];
+        for (var i = 0; i < starts.Count; i++)
         {
+            var start = starts[i];
             var node = nodes[start];
 
-            foreach (var dir in Enum.GetValues<Direction>())
-            {
-                var workNode = node;
-                
-                var i = 1;
-                var isValid = true;
-                do
-                {
-                    workNode = workNode?[dir];
-                    isValid = workNode?.Letter == Xmas[i++];
-                } while (i < Xmas.Length && workNode is not null && isValid);
+            var ul = node?[Direction.UpLeft]?.Letter;
+            var ur = node?[Direction.UpRight]?.Letter;
+            var dl = node?[Direction.DownLeft]?.Letter;
+            var dr = node?[Direction.DownRight]?.Letter;
 
-                if (isValid) count++;
-            }
+            if (ul != dr && ur != dl && !xMaS.Except([ul, dr]).Any() && !xMaS.Except([ur, dl]).Any())
+                count++;
         }
 
         return Task.FromResult<object>(count);

@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Diagnostics;
+using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Solutions;
@@ -19,9 +20,10 @@ await using var sp = services.BuildServiceProvider();
 var solutions = sp.GetServices<ISolution>().OrderBy(o => o.GetType().Name);
 foreach (var solution in solutions)
 {
+    var sw = Stopwatch.StartNew();
     try
     {
-        logger.LogInformation(@"{solutionName}: {solutionAnswer}", solution.GetType().Name, await solution.ExecuteAsync());
+        logger.LogInformation(@"{solutionName}: {solutionAnswer} [in {swMs}ms]", solution.GetType().Name, await solution.ExecuteAsync(), sw.ElapsedMilliseconds);
     }
     catch (Exception e)
     {

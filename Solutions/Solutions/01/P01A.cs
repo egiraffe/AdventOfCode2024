@@ -1,27 +1,25 @@
 namespace Solutions.Solutions._01;
 
-public class A01 : ISolution
+public class P01A : ISolution
 {
-    public object Execute()
+    public virtual Task<object> ExecuteAsync()
     {
-        return GetCalibrationValue(Inputs.A);
+        (List<int> a, List<int> b) = ([], []);
+        
+        foreach (var se in Inputs.A1.Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries))
+        {
+            var inputs = se.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            a.Add(int.Parse(inputs[0]));
+            b.Add(int.Parse(inputs[1]));
+        }
+
+        a.Sort();
+        b.Sort();
+
+        var diff = a.Select((t, i) => Math.Abs(t - b[i])).Sum();
+
+        return Task.FromResult((object) diff);
     }
 
-    protected virtual int GetCalibrationValue(string input)
-    {
-        return input
-            .Split(Environment.NewLine)
-            .Sum(s => GetCalibrationValueOfLine(s.ToArray()));
-    }
-
-    protected virtual int GetCalibrationValueOfLine(char[] line)
-    {
-        var digits = GetLineDigits(line);
-        return digits.Length > 0 ? digits[0] * 10 + digits[^1] : 0;
-    }
-
-    protected virtual int[] GetLineDigits(char[] line)
-    {
-        return line.Where(char.IsDigit).Select(s => s - '0').ToArray();
-    }
+    
 }

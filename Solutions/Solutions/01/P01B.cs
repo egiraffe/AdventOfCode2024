@@ -1,8 +1,8 @@
 namespace Solutions.Solutions._01;
 
-public class P01A : ISolution
+public class P01B : ISolution
 {
-    public virtual async Task<object> ExecuteAsync()
+    public virtual Task<object> ExecuteAsync()
     {
         (List<int> a, List<int> b) = ([], []);
         
@@ -12,13 +12,12 @@ public class P01A : ISolution
             a.Add(int.Parse(inputs[0]));
             b.Add(int.Parse(inputs[1]));
         }
+        
+        var cntInB = b.GroupBy(g => g).ToDictionary(g => g.Key, g => g.Count());
 
-        a.Sort();
-        b.Sort();
+        var diff = a.Aggregate(0, (current, itm) => current + itm * cntInB.GetValueOrDefault(itm, 0));
 
-        var diff = a.Select((t, i) => Math.Abs(t - b[i])).Sum();
-
-        return diff;
+        return Task.FromResult<object>(diff);
     }
 
     
