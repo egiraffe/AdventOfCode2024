@@ -7,21 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7f69f7-409f-41b4-bfff-34b4f0875d16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Solutions/ISolution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/ISolution.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Solutions/01/Inputs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Solutions/01/Inputs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Solutions/01/P01A.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Solutions/01/P01A.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Solutions/01/P01B.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Solutions/01/P01B.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Solutions/02/Inputs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Solutions/02/Inputs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Solutions/02/P02A.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Solutions/02/P02A.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Solutions/02/P02B.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Solutions/02/P02B.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Solutions/03/Inputs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Solutions/03/Inputs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Solutions/03/P03A.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Solutions/03/P03A.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Solutions/03/P03B.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Solutions/03/P03B.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Solutions/04/Inputs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Solutions/04/Inputs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Solutions/04/P04A.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Solutions/04/P04A.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Solutions/04/P04B.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Solutions/04/P04B.cs" afterDir="false" />
+    <list default="true" id="0b7f69f7-409f-41b4-bfff-34b4f0875d16" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/Solutions/Solutions/05/Inputs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solutions/Solutions/05/P05A.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode2024.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2024.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +24,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/egiraffe/AdventOfCode2024.git",
-    "accountId": "219cb12a-af45-4b59-9dac-c456be883e5f"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;egiraffe&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/egiraffe/AdventOfCode2024.git&quot;,
+    &quot;accountId&quot;: &quot;219cb12a-af45-4b59-9dac-c456be883e5f&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4743f513c7ddc8411223a46f0ca426ed929391acebcff993721dff2f0c6b34/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5c9618319c8bb992a410d754c6fd33435b7db8e22e7bdf7763a9b3490c28a/Number.Parsing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d37356fea9ed307068a31dc8ca3e5c5723187a9f164d0d76fc81bbf46f5/ThrowHelpers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e744562ef42dc5e29efed36f99fad0bd8896f768f06a144364a62cb95d92813/Console.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/ericgraf/RiderProjects/AdventOfCode2023/Solutions/Solutions/01/Inputs.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -102,8 +101,17 @@
       <option name="presentableId" value="Default" />
       <updated>1701974369725</updated>
       <workItem from="1701974371200" duration="18202000" />
-      <workItem from="1733088592644" duration="23689000" />
+      <workItem from="1733088592644" duration="30903000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1733370970859</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733370970859</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +121,8 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
