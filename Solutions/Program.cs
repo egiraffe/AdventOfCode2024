@@ -18,7 +18,7 @@ services.AddHttpClient();
 
 await using var sp = services.BuildServiceProvider();
 var solutions = sp.GetServices<ISolution>().OrderBy(o => o.GetType().Name);
-foreach (var solution in solutions)
+foreach (var solution in solutions.Reverse())
 {
     var sw = Stopwatch.StartNew();
     try

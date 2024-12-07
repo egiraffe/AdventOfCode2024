@@ -7,11 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7f69f7-409f-41b4-bfff-34b4f0875d16" name="Changes" comment="Day 5">
-      <change afterPath="$PROJECT_DIR$/Solutions/Solutions/06/Inputs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutions/Solutions/06/P06A.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutions/Solutions/06/P06B.cs" afterDir="false" />
+    <list default="true" id="0b7f69f7-409f-41b4-bfff-34b4f0875d16" name="Changes" comment="day 6">
+      <change afterPath="$PROJECT_DIR$/Solutions/Solutions/07/Inputs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solutions/Solutions/07/P07A.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solutions/Solutions/07/P07B.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode2024.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2024.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +41,31 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4743f513c7ddc8411223a46f0ca426ed929391acebcff993721dff2f0c6b34/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5c9618319c8bb992a410d754c6fd33435b7db8e22e7bdf7763a9b3490c28a/Number.Parsing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a984a133191d26625f45e85cc27e20cad64f4a6ecb6263b4c17bc55965a5/String.Manipulation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d37356fea9ed307068a31dc8ca3e5c5723187a9f164d0d76fc81bbf46f5/ThrowHelpers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e744562ef42dc5e29efed36f99fad0bd8896f768f06a144364a62cb95d92813/Console.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/ericgraf/RiderProjects/AdventOfCode2023/Solutions/Solutions/01/Inputs.cs" root0="SKIP_HIGHLIGHTING" />
@@ -57,7 +82,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;.NET Project.Solutions.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Solutions.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -101,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701974369725</updated>
       <workItem from="1701974371200" duration="18202000" />
-      <workItem from="1733088592644" duration="36225000" />
+      <workItem from="1733088592644" duration="44358000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -119,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733455027055</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="day 6">
+      <option name="closed" value="true" />
+      <created>1733601248609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733601248609</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,23 +164,66 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="update" />
     <MESSAGE value="Day 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 5" />
+    <MESSAGE value="day 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Solutions/Solutions/06/P06A.cs</url>
-          <line>14</line>
-          <properties documentPath="$PROJECT_DIR$/Solutions/Solutions/06/P06A.cs" containingFunctionPresentation="Method 'ExecuteAsync'">
+          <condition expression="array.SequenceEqual(new string[]{&quot;6&quot;,&quot;*&quot;,&quot;8&quot;,&quot;||&quot;,&quot;6&quot;,&quot;*&quot;,&quot;15&quot;})" language="C#" />
+          <url>file://$PROJECT_DIR$/Solutions/Solutions/07/P07B.cs</url>
+          <line>92</line>
+          <properties documentPath="$PROJECT_DIR$/Solutions/Solutions/07/P07B.cs" containingFunctionPresentation="Method 'PreProcessConcatenations'">
             <startOffsets>
-              <option value="339" />
+              <option value="2848" />
             </startOffsets>
             <endOffsets>
-              <option value="381" />
+              <option value="2880" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="35" />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Solutions/Solutions/07/P07B.cs</url>
+          <line>20</line>
+          <properties documentPath="$PROJECT_DIR$/Solutions/Solutions/07/P07B.cs" containingFunctionPresentation="Method 'ExecuteAsync'">
+            <startOffsets>
+              <option value="625" />
+            </startOffsets>
+            <endOffsets>
+              <option value="672" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <condition expression="permutations.Contains(&quot;6 * 8 || 6 * 15&quot;)" language="C#" />
+          <url>file://$PROJECT_DIR$/Solutions/Solutions/07/P07B.cs</url>
+          <line>28</line>
+          <properties documentPath="$PROJECT_DIR$/Solutions/Solutions/07/P07B.cs" containingFunctionPresentation="Method 'GetValidCombinationCount'">
+            <startOffsets>
+              <option value="887" />
+            </startOffsets>
+            <endOffsets>
+              <option value="961" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <condition expression="expr == &quot;6 * 8 || 6 * 15&quot;" language="C#" />
+          <url>file://$PROJECT_DIR$/Solutions/Solutions/07/P07B.cs</url>
+          <line>70</line>
+          <properties documentPath="$PROJECT_DIR$/Solutions/Solutions/07/P07B.cs" containingFunctionPresentation="Method 'GetValidPermutations'">
+            <startOffsets>
+              <option value="2135" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2233" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
