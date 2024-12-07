@@ -7,11 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7f69f7-409f-41b4-bfff-34b4f0875d16" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Solutions/Solutions/05/Inputs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutions/Solutions/05/P05A.cs" afterDir="false" />
+    <list default="true" id="0b7f69f7-409f-41b4-bfff-34b4f0875d16" name="Changes" comment="Day 5">
+      <change afterPath="$PROJECT_DIR$/Solutions/Solutions/06/Inputs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solutions/Solutions/06/P06A.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solutions/Solutions/06/P06B.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode2024.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2024.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701974369725</updated>
       <workItem from="1701974371200" duration="18202000" />
-      <workItem from="1733088592644" duration="30903000" />
+      <workItem from="1733088592644" duration="36225000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -111,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733370970859</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day 5">
+      <option name="closed" value="true" />
+      <created>1733455027055</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733455027055</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,10 +130,26 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Day 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Solutions/Solutions/06/P06A.cs</url>
+          <line>14</line>
+          <properties documentPath="$PROJECT_DIR$/Solutions/Solutions/06/P06A.cs" containingFunctionPresentation="Method 'ExecuteAsync'">
+            <startOffsets>
+              <option value="339" />
+            </startOffsets>
+            <endOffsets>
+              <option value="381" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="DotNet Exception Breakpoints" />
         <breakpoint enabled="true" type="CidrExceptionBreakpoint" />
